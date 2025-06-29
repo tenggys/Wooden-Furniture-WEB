@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wooden Furniture</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
     <header class="header">
@@ -15,7 +16,7 @@
                     <li class="header__ul_list"><a href="#">Stories</a></li>
                 </ul>
             </nav>
-            <img class="logo" src="" alt="logo">
+            <img class="header__logo" src="/img/logo.svg" alt="logo">
         </div>
     </header>
     <main>
@@ -57,30 +58,155 @@
 
         <section class="images">
             <div class="images__flex container">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="" alt="img">
+                <img src="" alt="img">
+                <img src="" alt="img">
+                <img src="" alt="img">
             </div>
         </section>
 
         <section class="card">
-            <div class="card__flex container">
+            <div class="card__flex container" id="card-box">
                 <div class="card__item">
                     <div class="card__content">
-
+                        <h2 class="card__title"></h2>
+                        <p class="card__subtitle"></p>
+                        <p class="card__price"></p>
+                        <p class="card__description"></p>
+                        <button class="card__button"></button>
                     </div>
                     <img class="card__img" src="" alt="">
                 </div>
             </div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="project">
+            <div class="container">
+                <h2 class="project__title">
+                    Our pieces inside your home
+                </h2>
+                <p class="project__subtitle">
+                    Get inspired by our products in real-life. Tag us and be featured!
+                </p>
+                <div class="project__slider">
+                    <div class="project__imgs">
+                        <img src="" alt="project">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                    <div class="project__buttons">
+                        <buttton></buttton>
+                        <buttton></buttton>
+                        <buttton></buttton>
+                        <buttton></buttton>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <p class="reviews__text">
+                    "The team from Woodendot has displayed utmost professionalism from order to deliver and customer support. We placed an order to the UK and would <br>
+                    definitely recommend friends to order from Woodendot!"
+                </p>
+                <p class="reviews__address">
+                    R. Aoun, United Kingdom
+                </p>
+            </div>
+        </section>
+        <section class="details">
+            <div class="details__flex container" id="details-items-box">
+                <div class="details__item">
+                    <img class="details__img" src="" alt="svg">
+                    <h3 class="details__heading"></h3>
+                    <p class="details__text"></p>
+                    <button class="details__button"></button>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners__flex container">
+                <h3 class="partners__title">
+                    Those who are talking about us...
+                </h3>
+                <!-- к сожалению в макете было только 1 изображение не разбитое на блоки-->
+                <img src="" alt="partners">
+            </div>
+        </section>
     </main>
     <hr>
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+                    <div class="footer__top">
+            <div class="footer__links">
+                <div class="footer__item">
+                    <h3 class="footer__title">
+                        About
+                    </h3>
+                    <ul class="footer__ul">
+                        <a href="#">About Us</a>
+                        <a href="#">Design</a>
+                        <a href="#">Sustainability</a>
+                        <a href="#">We plant trees</a>
+                        <a href="#">Our Story</a>
+                        <a href="#">Awards</a>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">
+                        Help
+                    </h3>
+                    <ul class="footer__ul">
+                        <a href="#">Holiday Offers FAQ</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Warranty</a>
+                        <a href="#">Shipments</a>
+                        <a href="#">Returns & Claims</a>
+                        <a href="#">Contact us</a>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">
+                        More
+                    </h3>
+                    <ul class="footer__ul">
+                        <a href="#">Where to find us</a>
+                        <a href="#">Woodendot Family</a>
+                        <a href="#">Press</a>
+                        <a href="#">Affiliates</a>
+                        <a href="#">Video Lifestyle</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__news">
+                <h2 class="footer__heading">
+                    Don’t miss any news and exclusive offers!
+                </h2>
+                <button class="footer__button">
+                    Newsletter subscription
+                </button>
+                <div class="footer__icons">
+                    <img src="/img/footer_icon1.svg" alt="svg">
+                    <img src="/img/footer_icon2.svg" alt="svg">
+                </div>
+                <img src="/img/footer__stars.png" alt="img">
+            </div>
+        </div>
+        <div class="footer__bot">
+            <small class="footer__small">© Copyright – WOODENDOT 2021</small>
+            <div class="footer__payment">
+                <img src="/img/visa.svg" alt="visa">
+                <img src="/img/paypal.svg" alt="PayPal">
+                <img src="/img/matercard.svg" alt="mastercard">
+                <img src="/img/ae.svg" alt="AE">
+                <img src="/img/klarna.svg" alt="Klarna.">
+            </div>
+            <div class="footer__rules-policy">
+                <a href="#">Terms & Conditions</a>
+                <div class="footer__stripe">|</div>
+                <a href="#">Privacy Policy & Cookies</a>
+            </div>
+        </div>
+        </div>
     </footer>
 </body>
 </html>
