@@ -36,8 +36,13 @@ a {
 
     &__flex {
         display: flex;
-        
+        justify-content: space-between;
         align-items: center;
+    }
+
+    &__nav {
+        position: relative;
+        margin-right: 0 auto;
     }
 
     &__ul {
@@ -55,7 +60,225 @@ a {
                 }
             }
         }
-
+        
     }
 
 }
+
+.promo {
+    &__flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__back {
+        background: url(/img/promo.png) no-repeat;
+        height: 698px
+    }
+
+    &__heading {
+        @include text (700, 27px, 38.4px, $textColorWhith);
+        text-align: center;
+        padding-top: 257px;
+        margin-bottom: 31px;
+    }
+
+    &__button {
+      padding: 6px 40px;
+      background: none;
+      @include text (700, 20px, 20px, $textColorWhith);
+      border: 1px solid $borderColorBtnWhith;
+      
+      &:hover {
+        color: $hoverOrangeText;
+        transition: 0.5s;
+      }
+    }
+
+}
+
+.dignities {
+    padding-top: 43px;
+    padding-bottom: 43px;
+
+    &__flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__item {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+    }
+}
+
+.images {
+   margin-bottom: 115px;
+
+   &__flex {
+    display: flex;
+   }
+}
+
+.card {
+    margin-bottom: 40px;
+
+    &__flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        
+    }
+
+    &__item {
+        display: flex;
+        gap: 22px;
+
+        &_reverse {
+            flex-direction: row-reverse;
+        }
+
+        &:nth-child(odd) {
+            .card__content {
+                text-align: end;
+            }
+        }
+    }
+
+    &__content {
+        margin-top: 96px;
+    }
+
+    &__title {
+        @include text (700, 33px, 56px, $textColorBlack);
+        margin-bottom: 4px;
+    }
+
+    &__subtitle {
+        @include text (400, 18px, 37.14px, $textColorBlack);
+        margin-bottom: 22.52px;
+        font-style: italic;
+    }
+
+    &__price {
+        @include text (400, 15px, 27.86px, $textColorBlack);
+        margin-bottom: 12px; 
+    }
+
+    &__description {
+        @include text (400, 18px, 30.6px, $textColorGray);
+        margin-bottom: 66px;
+    }
+
+    &__button {
+        @include text (400, 17px, 22px, $textColorBlack);
+        border: none;
+        background: none;
+        text-decoration: underline;
+
+        &:hover {
+            color: $hoverOrangeText;
+            transition: 0.5s;
+        }
+    }
+}
+
+.project {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+
+    &__title {
+        @include text (700, 30px, 30px, $textColorBlack);
+        margin-bottom: 21px;
+    }
+
+    &__subtitle {
+        @include text (400, 18px, 33.43px, $textColorBlack);
+        margin-bottom: 36.73px;
+    }
+
+    &__slider {
+        margin-bottom: 23px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    &__imgs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        transition: transform 0.5s ease;
+        margin-bottom: 20px;
+    }
+
+    &__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+
+        &_btn {
+            width: 9px;
+            height: 9px;
+            background: $backColorBlack;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &:hover, &:active {
+                background: $hoverOrangeBack;
+                transition: 0.5s;
+                width: +1%;
+            }
+        }
+    }
+}
+
+.details {
+    margin-bottom: 72px;
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        padding: 54px 18px 46px;
+        align-items: center;
+        max-width: 360px;
+
+        &:nth-of-type(2),  &:nth-of-type(4) {
+            background: $backColorGray;
+        }
+    }
+
+    &__img {
+        margin-bottom: 36px;
+    }
+
+    &__heading {
+        margin-bottom: 12px;
+        @include text (400, 24px, 35px, $textColorBlack);
+    }
+
+    &__text {
+        margin-bottom: 28px;
+        @include text (400, 15px, 27.88px, $textColorBlack);
+        max-width: 319px;
+    }
+
+    &__button {
+        border: none;
+        background: none;
+        text-decoration: underline;
+        @include text (400, 15px, 15px, $textColorBlack);
+    }
+}
+

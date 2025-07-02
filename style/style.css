@@ -33,7 +33,12 @@ a {
 }
 .header__flex {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+.header__nav {
+  position: relative;
+  margin-right: 0 auto;
 }
 .header__ul {
   display: flex;
@@ -49,4 +54,219 @@ a {
 .header__ul_list a:hover {
   color: orange;
   transition: 0.5s;
+}
+
+.promo__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.promo__back {
+  background: url(/img/promo.png) no-repeat;
+  height: 698px;
+}
+.promo__heading {
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 38.4px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 257px;
+  margin-bottom: 31px;
+}
+.promo__button {
+  padding: 6px 40px;
+  background: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+.promo__button:hover {
+  color: orange;
+  transition: 0.5s;
+}
+
+.dignities {
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+.dignities__flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dignities__item {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.images {
+  margin-bottom: 115px;
+}
+.images__flex {
+  display: flex;
+}
+
+.card {
+  margin-bottom: 40px;
+}
+.card__flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.card__item {
+  display: flex;
+  gap: 22px;
+}
+.card__item_reverse {
+  flex-direction: row-reverse;
+}
+.card__item:nth-child(odd) .card__content {
+  text-align: end;
+}
+.card__content {
+  margin-top: 96px;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 4px;
+}
+.card__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 37.14px;
+  color: #000000;
+  margin-bottom: 22.52px;
+  font-style: italic;
+}
+.card__price {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27.86px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.card__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30.6px;
+  color: #525252;
+  margin-bottom: 66px;
+}
+.card__button {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  border: none;
+  background: none;
+  text-decoration: underline;
+}
+.card__button:hover {
+  color: orange;
+  transition: 0.5s;
+}
+
+.project {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+.project__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 21px;
+}
+.project__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33.43px;
+  color: #000000;
+  margin-bottom: 36.73px;
+}
+.project__slider {
+  margin-bottom: 23px;
+  overflow: hidden;
+  position: relative;
+}
+.project__imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  transition: transform 0.5s ease;
+  margin-bottom: 20px;
+}
+.project__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.project__buttons_btn {
+  width: 9px;
+  height: 9px;
+  background: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.project__buttons_btn:hover, .project__buttons_btn:active {
+  background: orange;
+  transition: 0.5s;
+  width: 1%;
+}
+
+.details {
+  margin-bottom: 72px;
+}
+.details__flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.details__item {
+  display: flex;
+  flex-direction: column;
+  padding: 54px 18px 46px;
+  align-items: center;
+  max-width: 360px;
+}
+.details__item:nth-of-type(2), .details__item:nth-of-type(4) {
+  background: #F8F8F8;
+}
+.details__img {
+  margin-bottom: 36px;
+}
+.details__heading {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+.details__text {
+  margin-bottom: 28px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27.88px;
+  color: #000000;
+  max-width: 319px;
+}
+.details__button {
+  border: none;
+  background: none;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */

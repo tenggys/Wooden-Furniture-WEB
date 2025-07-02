@@ -9,6 +9,9 @@
 <body>
     <header class="header">
         <div class="header__flex container">
+            <a class="header__logo" href="index.html">
+                <img src="/img/logo.svg" alt="logo">
+            </a>
             <nav class="header__nav">
                 <ul class="header__ul">
                     <li class="header__ul_list"><a href="index.html">Wooden Furniture</a></li>
@@ -16,69 +19,60 @@
                     <li class="header__ul_list"><a href="#">Stories</a></li>
                 </ul>
             </nav>
-            <img class="header__logo" src="/img/logo.svg" alt="logo">
         </div>
     </header>
     <main>
         <section class="promo">
-            <div class="container">
-            <h1 class="promo__heading">Furniture designed to live in harmony, creating distinctive and <br>
-                timeless spaces
-            </h1>
-            <button class="promo__button"
-            >Discover now
-        </button>
+            <div class="promo__back promo__flex container">
+                <h1 class="promo__heading">Furniture designed to live in harmony, creating distinctive and <br>
+                    timeless spaces
+                </h1>
+                <button class="promo__button">
+                    Discover now
+                </button>
             </div>
         </section>
 
         <section class="dignities">
             <div class="container dignities__flex">
                 <div class="dignities__item">
-                    <img class="dignities__item_img" src="" alt="">
-                    <p class="dignities__item_text"></p>
+                    <img class="dignities__item_img" src="/img/dignities1.svg" alt="img">
+                    <p class="dignities__item_text">Free Shipping</p>
                 </div>
                 <div class="dignities__item">
-                    <img class="dignities__item_img" src="" alt="">
-                    <p class="dignities__item_text"></p>
+                    <img class="dignities__item_img" src="/img/dignities2.svg" alt="img">
+                    <p class="dignities__item_text">Awarded Product Design</p>
                 </div>
                 <div class="dignities__item">
-                    <img class="dignities__item_img" src="" alt="">
-                    <p class="dignities__item_text"></p>
+                    <img class="dignities__item_img" src="/img/dignities3.svg" alt="img">
+                    <p class="dignities__item_text">Ecofriendly Approach</p>
                 </div>
                 <div class="dignities__item">
-                    <img class="dignities__item_img" src="" alt="">
-                    <p class="dignities__item_text"></p>
+                    <img class="dignities__item_img" src="/img/dignities4.svg" alt="img">
+                    <p class="dignities__item_text">Crafted in Spain</p>
                 </div>
                 <div class="dignities__item">
-                    <img class="dignities__item_img" src="" alt="">
-                    <p class="dignities__item_text"></p>
+                    <img class="dignities__item_img" src="/img/dignities2.svg" alt="img">
+                    <p class="dignities__item_text">4.8 Star Reviews</p>
                 </div>                
             </div>
         </section>
 
         <section class="images">
             <div class="images__flex container">
-                <img src="" alt="img">
-                <img src="" alt="img">
-                <img src="" alt="img">
-                <img src="" alt="img">
+                <img src="/img/images1.jpg" alt="img">
+                <img src="/img/images2.jpg" alt="img">
+                <img src="/img/images3.jpg" alt="img">
+                <img src="/img/images4.jpg" alt="img">
             </div>
         </section>
 
         <section class="card">
             <div class="card__flex container" id="card-box">
-                <div class="card__item">
-                    <div class="card__content">
-                        <h2 class="card__title"></h2>
-                        <p class="card__subtitle"></p>
-                        <p class="card__price"></p>
-                        <p class="card__description"></p>
-                        <button class="card__button"></button>
-                    </div>
-                    <img class="card__img" src="" alt="">
-                </div>
+                <!--card.json-->
             </div>
         </section>
+
         <section class="project">
             <div class="container">
                 <h2 class="project__title">
@@ -89,19 +83,21 @@
                 </p>
                 <div class="project__slider">
                     <div class="project__imgs">
-                        <img src="" alt="project">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <img src="/img/slider/slider1.png" alt="project">
+                        <img src="/img/slider/slider2.png" alt="project">
+                        <img src="/img/slider/slider3.png" alt="project">
+                        <img src="/img/slider/slider4.png" alt="project">
+                        <img src="/img/slider/slider5.png" alt="project">
                     </div>
                     <div class="project__buttons">
-                        <buttton></buttton>
-                        <buttton></buttton>
-                        <buttton></buttton>
-                        <buttton></buttton>
+                        <buttton class="project__buttons_btn" data-index="0"></buttton>
+                        <buttton class="project__buttons_btn" data-index="1"></buttton>
+                        <buttton class="project__buttons_btn" data-index="2"></buttton>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="reviews">
             <div class="container">
                 <p class="reviews__text">
@@ -113,16 +109,13 @@
                 </p>
             </div>
         </section>
+
         <section class="details">
-            <div class="details__flex container" id="details-items-box">
-                <div class="details__item">
-                    <img class="details__img" src="" alt="svg">
-                    <h3 class="details__heading"></h3>
-                    <p class="details__text"></p>
-                    <button class="details__button"></button>
-                </div>
+            <div class="details__flex container" id="details-box">
+                <!--cardDetails-->
             </div>
         </section>
+
         <section class="partners">
             <div class="partners__flex container">
                 <h3 class="partners__title">
@@ -208,5 +201,9 @@
         </div>
         </div>
     </footer>
+
+    <script src="cardDetails.js"></script>
+    <script src="card.js"></script>
+    <script src="slider.js"></script>
 </body>
 </html>

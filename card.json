@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "img": "/img/card/card1.png",
+        "alt": "img",
+        "title": "Cloe",
+        "from": "From$",
+        "price": 1.176,
+        "subtitle": "Modular Storage System",
+        "description": "An expansive way to furnish your space exactly how you need it and like it. Transform it in exactly what you need like a bookshelf, tv stand or show rack, you pick.",
+        "button": "Shop now"
+    },
+        {
+        "id": 2,
+        "img": "/img/card/card2.png",
+        "alt": "img",
+        "title": "Pelican",
+        "from": "From$",
+        "price": 89,
+        "subtitle": "Shelves with hidden hooks",
+        "description": "Store or exhibit your favorite objects in the entrance hall, modern hallways, living rooms and bedrooms with a decorative and minimalist touch.",
+        "button": "Shop now"
+    },
+        {
+        "id": 3,
+        "img": "/img/card/card3.png",
+        "alt": "img",
+        "title": "Alada",
+        "from": "From$",
+        "price": 534,
+        "subtitle": "Floating folding desk",
+        "description": "A timeless and discreet folding desk that seamlessly transforms into a decorative shelf in seconds.",
+        "button": "Shop now"
+    },
+        {
+        "id": 4,
+        "img": "/img/card/card4.png",
+        "alt": "img",
+        "title": "Alba Collection",
+        "from": "From$",
+        "price": 272,
+        "subtitle": "Modular bedside table & shelf",
+        "description": "A versatile and modular piece with a sculptural touch that can be used as a wall shelf or as a bedside table with concealed storage.",
+        "button": "Shop now"
+    },
+        {
+        "id": 5,
+        "img": "/img/card/card5.png",
+        "alt": "img",
+        "title": "Batea Collection",
+        "from": "From$",
+        "price": "272",
+        "subtitle": "Tables with storage & tray tables",
+        "description": "Composed of clean and rounded lines, the Batea Collection includes unique tables with extra functionality like a removable tray, and hidden storage.",
+        "button": "Shop now"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "img": "/img/details/details1.svg",
+        "alt": "svg",
+        "heading": "DESIGN",
+        "text": "We create furniture pieces with personality, designed to transform your space.",
+        "button": "Learn More"
+    },
+    {
+        "id": 2,
+        "img": "/img/details/details2.svg",
+        "alt": "svg",
+        "heading": "FOOTPRINT",
+        "text": "We are committed to look after what we love, nature.",
+        "button": "Learn More"
+    },
+    {
+        "id": 3,
+        "img": "/img/details/details3.svg",
+        "alt": "svg",
+        "heading": "MADE",
+        "text": "Our local design, and production in the village of Iscar, Spain.",
+        "button": "Learn More"
+    },
+    {
+        "id": 4,
+        "img": "/img/details/details4.svg",
+        "alt": "svg",
+        "heading": "WOOD",
+        "text": "Our characteristic and main material, and its unique and timeless attributes.",
+        "button": "Learn More"
+    }
+]
